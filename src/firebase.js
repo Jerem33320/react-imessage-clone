@@ -1,13 +1,5 @@
 import firebase from 'firebase';
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyASsVjuFsEIHy_xSFj0-FC6kwgtdEUWqmg",
-//   authDomain: "imessage-clone-5a206.firebaseapp.com",
-//   projectId: "imessage-clone-5a206",
-//   storageBucket: "imessage-clone-5a206.appspot.com",
-//   messagingSenderId: "866429150314",
-//   appId: "1:866429150314:web:898aeb1dbb7a226d6ed613"
-// };
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
